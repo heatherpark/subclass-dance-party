@@ -21,7 +21,29 @@ body, a:link, a:visited, a:active{
   background-color: #777;
 }
 .dancer{
-  border:10px solid red;
+  border:10px solid purple;
   border-radius:10px;
   position:absolute;
+}
+
+.bluedancer{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-image: url("./src/burger.jpg");
+}
+
+.reddancer{
+  border:30px solid red;
+  border-radius:10px;
+  position:absolute;
+}
+
+.reddancerchange{
+  border:30px solid yellow;
+}
+
+.reddancermouseover {
+  border:50px solid green;
+  border-radius: 50px;
 }
